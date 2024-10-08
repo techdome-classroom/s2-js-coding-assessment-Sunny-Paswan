@@ -10,7 +10,7 @@ var isValid = function(s) {
         container.push('(');
         }
         else if (char == '{'){
-        container.append('{')
+        container.push('{')
         else if char == '[':
         container.append('[')
         else if char == ')':
