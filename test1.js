@@ -6,7 +6,7 @@ const assert = require("assert");
 describe("test cases for problem 1 ", function () {
 
     it("test case 1", function () {
-        const result = isValid("()");
+        const result = isValid("()"); 
         assert.equal(true, result);
     });
 
