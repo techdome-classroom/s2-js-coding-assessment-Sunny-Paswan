@@ -19,17 +19,17 @@ var isValid = function(s) {
         if (container.length === 0 || container[container.length - 1] !== '(') {
             return false;
         }
-        stack.pop();  // Pop after confirming a match
+        stack.pop();  
     } else if (char === '}') {
         if (container.length === 0 || container[container.length - 1] !== '{') {
             return false;
         }
-        container.pop();  // Pop after confirming a match
+        container.pop();  
     } else if (char === ']') {
         if (container.length === 0 || container[container.length - 1] !== '[') {
             return false;
         }
-        container.pop();  // Pop after confirming a match
+        container.pop();  
     }
     
 return container.length === 0;
