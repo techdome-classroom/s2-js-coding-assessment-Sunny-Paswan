@@ -31,8 +31,6 @@ var isValid = function(s) {
         }
         stack.pop();  // Pop after confirming a match
     }
-}
-
 // If the stack is empty, all brackets were matched
 return stack.length === 0;
 
