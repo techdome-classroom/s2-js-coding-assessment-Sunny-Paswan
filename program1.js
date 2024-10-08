@@ -7,7 +7,7 @@ var isValid = function(s) {
 
     for char in s:
         if char =='(':
-        
+        stack
 };
 
 module.exports = { isValid };
