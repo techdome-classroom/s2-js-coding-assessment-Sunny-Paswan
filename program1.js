@@ -15,7 +15,7 @@ var isValid = function(s) {
         else if (char === '['){}
         container.push('[')
     }
-        else if (char === ')'
+        else if (char === ')')
         if not container or 
 
 };
