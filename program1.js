@@ -33,7 +33,7 @@ var isValid = function(s) {
     }
     
 return container.length === 0;
-
+    }
 };
 
 module.exports = { isValid };
