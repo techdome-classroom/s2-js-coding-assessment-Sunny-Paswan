@@ -11,6 +11,7 @@ var isValid = function(s) {
         }
         else if (char == '{'){
         container.push('{')
+        }
         else if char == '[':
         container.append('[')
         else if char == ')':
