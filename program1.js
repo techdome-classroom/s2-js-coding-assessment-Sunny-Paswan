@@ -8,7 +8,8 @@ var isValid = function(s) {
     for(let char in s){
         if (char =='('){
         container.push('(');
-        else if char == '{':
+        }
+        else if (char == '{'){
         container.append('{')
         else if char == '[':
         container.append('[')
