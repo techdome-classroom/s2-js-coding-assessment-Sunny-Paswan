@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    container = [];
+    let container = [];
 
     for char in s:
         if char =='(':
