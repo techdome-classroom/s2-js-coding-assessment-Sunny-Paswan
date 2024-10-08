@@ -15,19 +15,15 @@ var romanToInt = function(s) {
 
     let total = 0;  
 
-
     for (let i = 0; i < s.length; i++) {
        
         let currentValue = romanMap[s[i]];
         
-        
         let nextValue = romanMap[s[i + 1]];
 
-        // If the current value is less than the next value, subtract the current value
         if (currentValue < nextValue) {
             total -= currentValue;
         } else {
-            // Otherwise, add the current value
             total += currentValue;
         }
     }
