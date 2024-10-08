@@ -8,6 +8,7 @@ var isValid = function(s) {
     for char in s:
         if char =='(':
         MediaStreamTrack.append('(')
+        else if char == '{'
 };
 
 module.exports = { isValid };
