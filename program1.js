@@ -7,7 +7,7 @@ var isValid = function(s) {
 
     for(let char in s){
         if (char =='('){
-        container.push('(')
+        container.push('(');
         else if char == '{':
         container.append('{')
         else if char == '[':
