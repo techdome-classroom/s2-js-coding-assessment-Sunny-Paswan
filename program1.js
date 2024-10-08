@@ -10,7 +10,9 @@ var isValid = function(s) {
         container.append('(')
         else if char == '{':
         container.append('{')
-        
+        else if char == '[':
+        container.append('[')
+
 };
 
 module.exports = { isValid };
