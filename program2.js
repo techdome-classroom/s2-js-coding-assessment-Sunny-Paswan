@@ -20,7 +20,7 @@ var romanToInt = function(s) {
        
         let currentValue = romanMap[s[i]];
         
-        // Get the value of the next Roman numeral (if any)
+        
         let nextValue = romanMap[s[i + 1]];
 
         // If the current value is less than the next value, subtract the current value
