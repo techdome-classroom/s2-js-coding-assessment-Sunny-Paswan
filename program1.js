@@ -6,7 +6,8 @@ var isValid = function(s) {
     container = [];
 
     for char in s:
-        if char =='('
+        if char =='(':
+        
 };
 
 module.exports = { isValid };
