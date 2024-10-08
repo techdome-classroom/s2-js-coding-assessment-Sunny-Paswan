@@ -13,7 +13,7 @@ var romanToInt = function(s) {
         'M': 1000
     };
 
-    let total = 0;  // Variable to store the final integer value
+    let total = 0;  
 
     // Loop through the string of Roman numerals
     for (let i = 0; i < s.length; i++) {
