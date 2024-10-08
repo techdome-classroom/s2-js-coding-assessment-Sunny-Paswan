@@ -7,7 +7,7 @@ var isValid = function(s) {
 
     for char in s:
         if char =='(':
-        MediaStreamTrack.append('(')
+        container.append('(')
         else if char == '{':
         
 };
